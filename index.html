@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Weather App By Devster</title>
+  <meta name="description" content="">
+  <meta name="author" content="Weather" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="title" content="Weather" />
+  <meta
+      name="description"
+      content="Simple Vanilla Weather Checker"
+  />
+  <meta name="author" content="dev#7558" />
+  <meta property="og:title" content="Weather Checker" />
+  <meta
+    property="og:description"
+    content="Simple Vanilla Weather Checker"
+  />
+  <meta name="og:site_name" content="Devster | Graphics | Code" />
+  <meta name="og:type" content="website" />
+  <meta name="theme-color" content="#738ADB" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+  <body>
+    <div class="input-section">
+      <input
+        type="text"
+        placeholder="Enter city name and press ENTER"
+        class="input-text"
+        id="input-text"
+        onkeypress="weatherData()"
+      />
+      <input type="submit" value="Submit" class="submit" id="submit" hidden/>
+    </div>
+
+    <div class="result-section">
+      <h1 class="name" id="name"></h1>
+      <h2 class="temp" id="temp"></h2>
+      <h5 class="desc" id="desc"></h5>
+      <h3 class="temp" id="wrong" hidden>Wrong City!</h3>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
