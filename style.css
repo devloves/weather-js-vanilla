@@ -86,3 +86,14 @@ body {
   background-color: #fff;
   transition: 0.3s ease;
 }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: 'Ubuntu', sans-serif;
+   background-color: rgba(255, 255, 255, 0.0);
+   color: white;
+   text-align: center;
+}
